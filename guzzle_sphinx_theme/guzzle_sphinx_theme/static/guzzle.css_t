@@ -20,7 +20,7 @@ body {
   position: fixed;
   height: 100%;
   border-right: 1px solid #e0e0e0;
-  width: 300px;
+  width: 305px;
   overflow: auto;
   background: #fafafa;
 }
@@ -231,6 +231,10 @@ div.sphinxsidebar p {
   padding: 8px 22px;
 }
 
+.sidebar-toc ul {
+    padding-left: 8px;
+}
+
 div.sphinxsidebar .sidebar-toc ul {
   margin: 0 0 4px 0;
   list-style-type: none;
@@ -282,8 +286,8 @@ div.sphinxsidebar ul.want-points {
 }
 
 div.sphinxsidebar .sidebar-toc ul ul {
-  margin: 0;
-  padding: 0;
+/*  margin: 0; */
+/*  padding: 0; */
 }
 
 .sidebar-localtoc ul {
