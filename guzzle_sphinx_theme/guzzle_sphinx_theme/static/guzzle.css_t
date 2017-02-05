@@ -136,6 +136,16 @@ code, tt {
   color: #8D1A38;
 }
 
+code.descname {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+code {
+  padding: 0;
+}
+
 tt {
   padding: 0 2px;
 }
@@ -154,7 +164,8 @@ pre {
   border-width: 0 0 0 2px;
   border-color: #eee;
   border-style: solid;
-  padding: 14px 0 14px 20px;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
   padding-right: 0;
   margin: 0.5em 0;
 }
@@ -205,7 +216,7 @@ div.sphinxsidebar .panel-default > .panel-heading {
 }
 
 .sidebar-wrapper {
-  padding: 0 22px;
+  padding: 0 8px;
 }
 
 div.sphinxsidebar h3,
@@ -228,11 +239,11 @@ div.sphinxsidebar p {
 
 .sidebar-toc {
   font-size: 15px;
-  padding: 8px 22px;
+  padding: 0 0 8px 0;
 }
 
 .sidebar-toc ul {
-    padding-left: 8px;
+    padding-left: 0;
 }
 
 div.sphinxsidebar .sidebar-toc ul {
@@ -268,16 +279,32 @@ div.sphinxsidebar .sidebar-toc a {
   color: #444;
 }
 
+.sidebar-toc li.toctree-l1 {
+  padding-left: 8px;
+}
+
 .sidebar-toc ul li.toctree-l1 a {
-  padding: 5px 25px;
+  padding-left: 8px;
+  margin-left: -8px;
 }
 
 .sidebar-toc ul li.toctree-l2 a {
-  padding: 5px 50px;
+  padding-left: 16px;
+  margin-left: -16px;
+}
+
+.sidebar-toc li.toctree-l2, .sidebar-toc li.toctree-l3, .sidebar-toc li.toctree-l4 {
+  padding-left: 8px;
 }
 
 .sidebar-toc ul li.toctree-l3 a {
-  padding: 5px 75px;
+  padding-left: 24px;
+  margin-left: -24px;
+}
+
+.sidebar-toc ul li.toctree-l4 a {
+  padding-left: 32px;
+  margin-left: -32px;
 }
 
 div.sphinxsidebar ul.want-points {
@@ -338,7 +365,7 @@ div.sphinxsidebar input {
   padding: 8px;
   color: #fff;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0 0 20px 0;
+  margin: 0 0 8px 0;
   font-weight: bold;
   background-color: #337ab7;
   border-bottom: 1px solid #fff;
