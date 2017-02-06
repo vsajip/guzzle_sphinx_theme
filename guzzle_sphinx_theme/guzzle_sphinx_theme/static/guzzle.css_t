@@ -900,6 +900,10 @@ h1 tt, h2 tt, h3 tt, h4 tt, h5 tt, h6 tt {
   background-color: transparent;
 }
 
+tr.field td:first-child {
+  display: none;
+}
+
 .viewcode-link {
   float: right;
 }
