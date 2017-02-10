@@ -133,6 +133,10 @@ code, pre, tt {
   font-family: Consolas, monospace;
 }
 
+span.mono {
+  font-family: Consolas, monospace;
+}
+
 code, tt {
   color: #8D1A38;
 }
