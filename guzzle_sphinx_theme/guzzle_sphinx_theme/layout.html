@@ -74,7 +74,7 @@
       </div>
     {%- endif %}
     </div>
-    <div class="clearer" style="height: 25px"></div>
+    <div class="clearer"></div>
   {% endif %}
 {%- endmacro %}
 
@@ -114,7 +114,7 @@
           {% block breadcrumbs %}
           <div role="navigation" aria-label="breadcrumbs navigation">
             <ol class="breadcrumb">
-              <li><a href="{{ pathto(master_doc) }}">Home</a></li>
+              <li><a href="{{ pathto(master_doc) }}">Docs</a></li>
               {% for doc in parents %}
                 <li><a href="{{ doc.link|e }}">{{ doc.title }}</a></li>
               {% endfor %}

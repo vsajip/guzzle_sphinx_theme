@@ -1,10 +1,6 @@
 /* Sphinx themes
 -------------------------------------------------- */
 
-html {
-  background-color: white;
-}
-
 body {
   background-color: #edf0f2;
   margin: 0;
@@ -20,20 +16,16 @@ body {
   position: fixed;
   height: 100%;
   border-right: 1px solid #e0e0e0;
-  width: 305px;
+  width: 300px;
   overflow: auto;
   background: #fafafa;
 }
 
 #right-column {
-  padding: 8px 0;
+  padding: 20px 0;
   margin-left: 300px;
   background-color: #fff;
-  /* max-width: 900px; */
-}
-
-#search-results {
-  padding: 15px;
+  max-width: 900px;
 }
 
 a.headerlink {
@@ -66,19 +58,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 h1 {
   font-size: 38px;
-  padding: 15px 10px 10px 15px;
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  padding: 10px 10px 10px 45px;
+  margin: 20px 0 35px -45px;
   background-color: aliceblue;
-  /* width: calc(100% + 90px); */
+  width: calc(100% + 90px);
   border-bottom: 1px solid #D8E4EF;
 }
 
@@ -86,11 +75,6 @@ h2 {
   font-size: 34px;
   padding: .2em 0;
   border-bottom: 1px solid #ddd;
-}
-
-div.section {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 h3 {
@@ -133,22 +117,8 @@ code, pre, tt {
   font-family: Consolas, monospace;
 }
 
-span.mono {
-  font-family: Consolas, monospace;
-}
-
 code, tt {
   color: #8D1A38;
-}
-
-code.descname {
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-}
-
-code {
-  padding: 0;
 }
 
 tt {
@@ -169,10 +139,9 @@ pre {
   border-width: 0 0 0 2px;
   border-color: #eee;
   border-style: solid;
-  padding-left: 1em;
-  padding-bottom: 0.5em;
+  padding: 14px 0 14px 20px;
   padding-right: 0;
-  margin: 0.5em 0;
+  margin: 20px 0;
 }
 
 div.highlight {
@@ -193,9 +162,8 @@ dl.method {
 
 .breadcrumb {
   font-size: 15px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   background: #fff;
-  padding: 0px 15px;
 }
 
 blockquote {
@@ -221,7 +189,7 @@ div.sphinxsidebar .panel-default > .panel-heading {
 }
 
 .sidebar-wrapper {
-  padding: 0 8px;
+  padding: 0 22px;
 }
 
 div.sphinxsidebar h3,
@@ -244,11 +212,6 @@ div.sphinxsidebar p {
 
 .sidebar-toc {
   font-size: 15px;
-  padding: 0 0 8px 0;
-}
-
-.sidebar-toc ul {
-    padding-left: 0;
 }
 
 div.sphinxsidebar .sidebar-toc ul {
@@ -284,32 +247,16 @@ div.sphinxsidebar .sidebar-toc a {
   color: #444;
 }
 
-.sidebar-toc li.toctree-l1 {
-  padding-left: 8px;
-}
-
 .sidebar-toc ul li.toctree-l1 a {
-  padding-left: 8px;
-  margin-left: -8px;
+  padding: 5px 25px;
 }
 
 .sidebar-toc ul li.toctree-l2 a {
-  padding-left: 16px;
-  margin-left: -16px;
-}
-
-.sidebar-toc li.toctree-l2, .sidebar-toc li.toctree-l3, .sidebar-toc li.toctree-l4 {
-  padding-left: 8px;
+  padding: 5px 50px;
 }
 
 .sidebar-toc ul li.toctree-l3 a {
-  padding-left: 24px;
-  margin-left: -24px;
-}
-
-.sidebar-toc ul li.toctree-l4 a {
-  padding-left: 32px;
-  margin-left: -32px;
+  padding: 5px 75px;
 }
 
 div.sphinxsidebar ul.want-points {
@@ -318,8 +265,8 @@ div.sphinxsidebar ul.want-points {
 }
 
 div.sphinxsidebar .sidebar-toc ul ul {
-/*  margin: 0; */
-/*  padding: 0; */
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar-localtoc ul {
@@ -338,12 +285,12 @@ div.sphinxsidebar input {
 
 .sidebar-block {
   padding: 0;
-  margin: 8px 0 16px 0;
+  margin: 14px 0 30px 0;
 }
 
 .sidebar-block h2 {
   border-bottom: none;
-  margin: 0;
+  margin: 0 0 17px 0;
   font-size: 14px;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   padding: 0 0 6px 0;
@@ -360,7 +307,7 @@ div.sphinxsidebar input {
     content: '';
     display:block;
     border-top: 1px solid #ccc;
-    margin: 8px 8px 0 8px;
+    margin: 24px 22px 0 22px;
 }
 
 .text-logo {
@@ -370,7 +317,7 @@ div.sphinxsidebar input {
   padding: 8px;
   color: #fff;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0 0 8px 0;
+  margin: 0 0 20px 0;
   font-weight: bold;
   background-color: #337ab7;
   border-bottom: 1px solid #fff;
@@ -439,7 +386,7 @@ table.two-column {
 -------------------------------------------------- */
 
 .footer-relations {
-  /* display: relative; */
+  display: relative;
   border-top: 1px solid #ccc;
   padding: 12px 45px;
   margin-top: 30px;
@@ -454,16 +401,12 @@ table.two-column {
 -------------------------------------------------- */
 
 div.footer {
-  padding: 2px 8px;
+  padding: 25px;
   font-size: 14px;
-  color: #555;
+  color: #888;
   text-align: right;
-  /* max-width: 1200px; */
+  max-width: 1200px;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  background-color: #EDF0F2;
-  border-top: 1px solid #E0E0E0;
 }
 
 div.footer a {
@@ -574,11 +517,7 @@ div.genindex-jumpbox {
 /* -- general body styles --------------------------------------------------- */
 
 .body {
-  /* padding: 0 45px; */
-}
-
-div.body > p, div.body form {
-  padding: 15px;
+  padding: 0 45px;
 }
 
 div.body p.caption {
@@ -902,10 +841,6 @@ tt.xref, a tt {
 
 h1 tt, h2 tt, h3 tt, h4 tt, h5 tt, h6 tt {
   background-color: transparent;
-}
-
-tr.field td:first-child {
-  display: none;
 }
 
 .viewcode-link {
